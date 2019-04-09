@@ -1,0 +1,40 @@
+/*black border*/
+.border {
+	border: 180px black solid;
+	height: calc(100vh - 300px);
+}
+body {
+	margin: 0;
+}
+/*align stuff*/
+h1 {
+	text-align: center;
+	margin-top: 80px;
+}
+.start {
+	text-align: center;
+	margin-top: 200px;
+}
+/*fonts*/
+* {
+	font-family: Chalkduster, fantasy;
+	font-size: 40px;
+}
+/*button*/
+a {
+    background-color: red;
+  box-shadow: 0 5px 0 darkred;
+  color: white;
+  padding: 1em 1.5em;
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 35px;
+}
+a:hover {
+  background-color: #ce0606;
+}
+a:active {
+  box-shadow: none;
+  top: 5px;
+}
