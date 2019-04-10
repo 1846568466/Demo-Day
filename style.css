@@ -6,6 +6,7 @@
 body {
 	margin: 0;
 }
+
 /*align stuff*/
 h1 {
 	text-align: center;
@@ -13,16 +14,18 @@ h1 {
 }
 .start {
 	text-align: center;
-	margin-top: 200px;
+	margin-top: 300px;
 }
+
 /*fonts*/
-* {
-	font-family: Chalkduster, fantasy;
-	font-size: 40px;
+* { font-family: "Cabin Sketch"; font-size: 24px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px; } h3 { font-family: "Cabin Sketch"; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px; } p { font-family: "Cabin Sketch"; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; } blockquote { font-family: "Cabin Sketch"; font-size: 21px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 30px; } pre { font-family: "Cabin Sketch"; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 18.5714px; }
+h1 {
+	font-size: 55px;
 }
+
 /*button*/
 a {
-    background-color: red;
+	background-color: red;
   box-shadow: 0 5px 0 darkred;
   color: white;
   padding: 1em 1.5em;
@@ -30,6 +33,8 @@ a {
   text-decoration: none;
   text-transform: uppercase;
   border-radius: 35px;
+  text-shadow: 3px 3px black;
+  font-size: 35px;
 }
 a:hover {
   background-color: #ce0606;
@@ -37,4 +42,11 @@ a:hover {
 a:active {
   box-shadow: none;
   top: 5px;
+}
+
+/*text1*/
+.text1 {
+	text-align: center;
+	margin-top: 450px;
+	font-size: 30px;
 }
