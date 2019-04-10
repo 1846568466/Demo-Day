@@ -22,29 +22,32 @@ h1 {
 h1 {
 	font-size: 55px;
 }
+a {
+	
+}
 
 /*button*/
-a {
+.button {
 	background-color: red;
-  box-shadow: 0 5px 0 darkred;
-  color: white;
-  padding: 1em 1.5em;
-  position: relative;
-  text-decoration: none;
-  text-transform: uppercase;
-  border-radius: 35px;
-  text-shadow: 3px 3px black;
-  font-size: 35px;
+	box-shadow: 0 5px 0 darkred;
+  	color: white;
+  	padding: 1em 1.5em;
+  	position: relative;
+  	text-decoration: none;
+  	text-transform: uppercase;
+  	border-radius: 35px;
+  	text-shadow: 3px 3px black;
+  	font-size: 35px;
 }
 a:hover {
-  background-color: #ce0606;
+	background-color: #ce0606;
 }
 a:active {
-  box-shadow: none;
-  top: 5px;
+  	box-shadow: none;
+  	top: 5px;
 }
 
-/*text1*/
+/*page1.0*/
 .text1 {
 	text-align: center;
 	margin-top: 450px;
