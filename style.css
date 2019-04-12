@@ -27,9 +27,12 @@ h1 {
 }
 
 .inborder a {
+	text-decoration: none;
+	display: block;
+}
+.choice-container  {
 	flex-grow: 1;
 	flex-basis: 0;
- 	text-decoration: none;
 }
 
 /*fonts*/
