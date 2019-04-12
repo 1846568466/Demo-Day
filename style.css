@@ -16,6 +16,21 @@ h1 {
 	text-align: center;
 	margin-top: 300px;
 }
+.border {
+	position: relative;
+}
+.inborder {
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	text-align: center;
+}
+
+.inborder a {
+	flex-grow: 1;
+	flex-basis: 0;
+ 	text-decoration: none;
+}
 
 /*fonts*/
 * { font-family: "Cabin Sketch"; font-size: 24px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px; } h3 { font-family: "Cabin Sketch"; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px; } p { font-family: "Cabin Sketch"; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; } blockquote { font-family: "Cabin Sketch"; font-size: 21px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 30px; } pre { font-family: "Cabin Sketch"; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 18.5714px; }
@@ -23,7 +38,7 @@ h1 {
 	font-size: 55px;
 }
 a {
-	
+	color: red;
 }
 
 /*button*/
@@ -31,11 +46,11 @@ a {
 	background-color: red;
 	box-shadow: 0 5px 0 darkred;
   	color: white;
-  	padding: 1em 1.5em;
+  	padding: 16px 20px;
   	position: relative;
   	text-decoration: none;
   	text-transform: uppercase;
-  	border-radius: 35px;
+  	border-radius: 28px;
   	text-shadow: 3px 3px black;
   	font-size: 35px;
 }
@@ -50,6 +65,9 @@ a:active {
 /*page1.0*/
 .text1 {
 	text-align: center;
-	margin-top: 450px;
 	font-size: 30px;
+}
+
+.link-container1 {
+	display: flex;
 }
