@@ -10,7 +10,7 @@ body {
 /*align stuff*/
 h1 {
 	text-align: center;
-	margin-top: 80px;
+	margin: 50px 0;
 }
 .start {
 	text-align: center;
@@ -24,15 +24,18 @@ h1 {
 	bottom: 0px;
 	width: 100%;
 	text-align: center;
+	margin: 50px 0;
 }
 
 .inborder a {
-	text-decoration: none;
 	display: block;
 }
 .choice-container  {
 	flex-grow: 1;
 	flex-basis: 0;
+}
+img {
+	width: 200px;
 }
 
 /*fonts*/
@@ -62,6 +65,7 @@ a {
 .text {
 	text-align: center;
 	font-size: 30px;
+	margin: 50px 0;
 }
 
 .link-container {
