@@ -3,6 +3,14 @@
 	border: 180px black solid;
 	height: calc(100vh - 300px);
 }
+
+@media only screen and (max-device-width: 768px) {
+	.border {
+		border: 60px black solid;
+		height: calc(100vh - 120px);
+	}
+}
+
 body {
 	margin: 0;
 }
